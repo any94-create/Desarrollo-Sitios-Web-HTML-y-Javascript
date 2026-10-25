@@ -1,0 +1,22 @@
+body{
+	margin: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+#comment {
+    width: 100%;       /* Sustituye a 'cols': hace que ocupe todo el ancho disponible */
+    height: 100px;     /* Sustituye a 'rows': le da una altura inicial fija en píxeles */
+    resize: vertical;  /* Evita que el usuario lo deforme hacia los lados, manteniendo tu diseño intacto */
+}
+
+textarea {
+    width: 200px;
+}
+
+input[name="email"] {
+    background-color: #eeeeee;
+}
+
+p, label {
+    font-family: Tahoma, sans-serif;
+}
